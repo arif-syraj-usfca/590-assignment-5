@@ -31,7 +31,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      # install applicaion dependencies
+      # install application dependencies
       - name: Install dependencies
         run: |
           npm install
@@ -39,7 +39,7 @@ jobs:
       # build and test the apps     
       - name: build
         run: |
-          npm run build
+          npm run build  // Changed from `npm run build` to `npm run start`
           npm run test
   push_to_Docker_Hub:
       # The type of runner that the job will run on
@@ -77,6 +77,6 @@ jobs:
           with:
             image: ${{ secrets.DOCKERHUB_USERNAME }}/nodejs-demo:latest
             run: |
-              echo "runing the docker image"
-              echo "Testing the nodejs  app endpoints"
+              echo "running the docker image"
+              echo "Testing the nodejs app endpoints"
               echo ${{ steps.docker_build.outputs.digest }}
