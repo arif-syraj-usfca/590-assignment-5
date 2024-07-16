@@ -7,7 +7,6 @@ const routes = require('./source/routes/route.js');
 const app = express();
 const PORT = 3000;
 const HOST = '0.0.0.0';
-// app.use(express.static(path.join(__dirname, 'public')));
 
 // body parser setup for Express v4.16.0 and higher
 app.use(express.json());
