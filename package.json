@@ -4,6 +4,7 @@
   "description": "# Should be \"590-assignment-7\"",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "jest"
   },
   "repository": {
