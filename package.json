@@ -1,0 +1,26 @@
+{
+  "name": "590-assignment-7",
+  "version": "1.0.0",
+  "description": "# Should be \"590-assignment-7\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arif-syraj-usfca/590-assignment-5.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arif-syraj-usfca/590-assignment-5/issues"
+  },
+  "homepage": "https://github.com/arif-syraj-usfca/590-assignment-5#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset": "^1.1.7",
+    "babel-preset-env": "^1.7.0",
+    "express": "^4.19.2",
+    "jest": "^29.7.0"
+  }
+}
